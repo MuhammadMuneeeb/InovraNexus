@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Engagement Models">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g6)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="3">
+    <rect x="170" y="170" width="250" height="130" rx="14"/>
+    <rect x="470" y="290" width="250" height="130" rx="14"/>
+    <rect x="770" y="170" width="250" height="130" rx="14"/>
+    <path d="M420 235H470M720 355H770M595 420V510"/>
+    <circle cx="595" cy="560" r="45"/>
+  </g>
+</svg>

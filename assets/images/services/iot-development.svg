@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="IoT Development">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g2)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="3">
+    <rect x="170" y="190" width="170" height="120" rx="16"/>
+    <rect x="520" y="120" width="170" height="120" rx="16"/>
+    <rect x="840" y="250" width="170" height="120" rx="16"/>
+    <rect x="460" y="430" width="190" height="120" rx="16"/>
+    <path d="M340 250H520M690 180L840 250M605 240V430M460 490H340V310"/>
+  </g>
+</svg>

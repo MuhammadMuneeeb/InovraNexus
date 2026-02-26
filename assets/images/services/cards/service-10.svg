@@ -1,0 +1,29 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 700' role='img' aria-label='Animated service visual'>
+  <defs>
+    <linearGradient id='bg10' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='hsl(290, 78%, 56%)'/>
+      <stop offset='100%' stop-color='hsl(200, 82%, 56%)'/>
+    </linearGradient>
+    <filter id='blur10'><feGaussianBlur stdDeviation='10'/></filter>
+  </defs>
+  <rect width='1200' height='700' fill='url(#bg10)'/>
+  <g fill='none' stroke='rgba(255,255,255,.65)' stroke-width='3'>
+    <path d='M120 520 L340 260 L560 430 L780 180 L1040 350'>
+      <animate attributeName='d' dur='8s' repeatCount='indefinite'
+        values='M120 520 L340 260 L560 430 L780 180 L1040 350;M120 510 L340 280 L560 410 L780 210 L1040 340;M120 520 L340 260 L560 430 L780 180 L1040 350' />
+    </path>
+    <path d='M170 610 L370 410 L600 530 L820 330 L1070 460' opacity='.75'/>
+  </g>
+  <g fill='rgba(255,255,255,.88)' filter='url(#blur10)'>
+    <circle cx='340' cy='260' r='18'>
+      <animate attributeName='r' values='14;24;14' dur='2.5s' repeatCount='indefinite'/>
+    </circle>
+    <circle cx='560' cy='430' r='14'>
+      <animate attributeName='r' values='10;20;10' dur='3s' repeatCount='indefinite'/>
+    </circle>
+    <circle cx='780' cy='180' r='16'>
+      <animate attributeName='r' values='12;22;12' dur='2.2s' repeatCount='indefinite'/>
+    </circle>
+  </g></svg>
+
+

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="AI Engineering">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="3">
+    <circle cx="320" cy="350" r="110"/>
+    <circle cx="600" cy="220" r="90"/>
+    <circle cx="860" cy="390" r="120"/>
+    <path d="M320 350L600 220L860 390"/>
+    <path d="M220 470L320 350L430 510L600 220L760 300L860 390L980 260"/>
+  </g>
+</svg>

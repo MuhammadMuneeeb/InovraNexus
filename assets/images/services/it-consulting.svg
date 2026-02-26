@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="IT Consulting">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g4)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".78" stroke-width="3">
+    <path d="M170 500H1030"/>
+    <path d="M230 500V290h120v210M430 500V220h120v280M630 500V340h120v160M830 500V170h120v330"/>
+    <path d="M190 180L310 130L450 170L600 110L760 160L930 120"/>
+  </g>
+</svg>

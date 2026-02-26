@@ -1,4 +1,6 @@
-﻿const navToggle = document.querySelector('.nav-toggle');
+﻿document.documentElement.classList.add('js');
+
+const navToggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.site-nav');
 
 if (navToggle && nav) {
@@ -64,7 +66,7 @@ const observer = new IntersectionObserver(
   { threshold: 0.16 }
 );
 
-document.querySelectorAll('.card, .list-card, .kpi-card, .section-head, .page-hero > .container > *, .reveal-on-load').forEach(el => {
+document.querySelectorAll('.reveal, .card, .list-card, .kpi-card, .section-head, .page-hero > .container > *, .reveal-on-load').forEach(el => {
   el.classList.add('reveal');
   observer.observe(el);
 });
@@ -339,3 +341,4 @@ const bootHeroMesh = async () => {
 };
 
 bootHeroMesh();
+

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="DevOps and Cloud">
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g5)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="3">
+    <path d="M300 410a80 80 0 1 1 25-156 115 115 0 0 1 218-18 88 88 0 0 1 166 56 72 72 0 0 1 48 118H300Z"/>
+    <path d="M430 520h340M450 560h300"/>
+    <path d="M500 520v-70M600 520v-70M700 520v-70"/>
+    <path d="M470 450h260"/>
+  </g>
+</svg>
