@@ -3,30 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Inovra Nexus builds AI-first software and transformation systems for enterprise and government teams." />
+  <meta name="description" content="Inovra Nexus delivers enterprise IT services, AI systems, cloud platforms, and product engineering for measurable business outcomes." />
   <meta name="robots" content="index,follow" />
-  <meta property="og:title" content="Inovra Nexus | Build Smarter Digital Systems" />
-  <meta property="og:description" content="AI engineering, software delivery, and 4IR transformation programs built for measurable outcomes." />
+  <meta property="og:title" content="Inovra Nexus | Enterprise IT Services" />
+  <meta property="og:description" content="Professional IT services for AI, software engineering, cloud, and digital transformation." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.inovranexus.com/" />
-  <title>Inovra Nexus | AI-First Digital Transformation</title>
+  <title>Inovra Nexus | Enterprise IT Services</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Inovra Nexus",
-      "url": "https://www.inovranexus.com",
-      "description": "AI-first company delivering software, AI systems, and digital transformation programs for enterprise and government organizations."
-    }
-  </script>
+  <link rel="stylesheet" href="assets/css/cosmic-home.css" />
 </head>
-<body>
+<body class="cosmic-home it-landing">
+  <div class="bg-orb orb-a" aria-hidden="true"></div>
+  <div class="bg-orb orb-b" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
   <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="site-header">
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
     <div class="container nav-wrap">
       <a class="brand" href="index.html">Inovra Nexus</a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
@@ -45,154 +43,215 @@
   </header>
 
   <main id="main-content">
-    <section class="section hero">
-      <div class="container hero-shell">
-        <div class="hero-copy reveal-on-load">
-          <p class="eyebrow">RESULT-FOCUSED TECHNOLOGY DELIVERY</p>
-          <h1>Launch High-Impact AI and Software Systems With Confidence</h1>
-          <p class="lead">Inovra Nexus partners with enterprise and government leaders to plan, build, and scale digital systems that increase velocity, reduce operational drag, and create measurable business impact.</p>
+    <section class="hero-pro section reveal-on-load">
+      <div class="container hero-pro-grid">
+        <div class="hero-left">
+          <p class="eyebrow">Enterprise IT Services</p>
+          <h1>Build Faster. Scale Smarter. Operate With Confidence.</h1>
+          <p class="lead">Inovra Nexus helps organizations modernize systems, launch AI-ready platforms, and deliver secure digital products with speed and precision.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="pages/book-call.html">Book Strategy Call</a>
-            <a class="btn btn-secondary" href="pages/services.html">View Services</a>
+            <a class="btn btn-secondary" href="pages/services.html">Explore Services</a>
           </div>
-          <div class="proof-row">
-            <span>98% Delivery Confidence</span>
-            <span>8-Week MVP Average</span>
-            <span>AI + VR + Data Expertise</span>
+          <div class="trust-mini">
+            <span>ISO-aligned engineering</span>
+            <span>Outcome-first delivery</span>
+            <span>Enterprise-grade security</span>
           </div>
         </div>
-        <aside class="hero-panel reveal-on-load">
-          <div class="hero-visual" aria-hidden="true">
-            <canvas id="hero-three-canvas"></canvas>
-            <div class="visual-glow"></div>
-            <p class="visual-caption">Adaptive Intelligence Mesh</p>
+
+        <aside class="hero-right hero-reel reveal" id="campaign-reel" aria-label="Featured service reel">
+          <div class="reel-top">
+            <p>Featured Solutions</p>
+            <div class="reel-dots" id="reel-dots">
+              <button type="button" class="active" data-reel-dot="0" aria-label="Slide 1"></button>
+              <button type="button" data-reel-dot="1" aria-label="Slide 2"></button>
+              <button type="button" data-reel-dot="2" aria-label="Slide 3"></button>
+              <button type="button" data-reel-dot="3" aria-label="Slide 4"></button>
+              <button type="button" data-reel-dot="4" aria-label="Slide 5"></button>
+            </div>
           </div>
-          <h3>Core Focus Areas</h3>
-          <div class="metrics-grid">
-            <article class="metric-item">
-              <strong>01</strong>
-              <span>AI Systems and intelligent workflow automation</span>
+          <div class="reel-frame" id="reel-frame">
+            <article class="reel-slide active" data-reel-slide="0">
+              <p class="reel-kicker">AI Systems</p>
+              <h3>Enterprise Copilot Deployment</h3>
+              <p>Role-based copilots deployed across product and operations.</p>
+              <img class="reel-photo" src="assets/images/home/code-laptop.jpg" alt="Developer writing code on a modern laptop setup." loading="lazy" />
+              <div class="reel-stats"><span>Security-first</span><span>Fast adoption</span><span>Measured ROI</span></div>
             </article>
-            <article class="metric-item">
-              <strong>02</strong>
-              <span>Custom web platforms and enterprise applications</span>
+            <article class="reel-slide" data-reel-slide="1">
+              <p class="reel-kicker">Cloud Modernization</p>
+              <h3>Migration With Zero-Downtime Strategy</h3>
+              <p>Legacy-to-cloud migration with resilient delivery workflows.</p>
+              <img class="reel-photo" src="assets/images/home/server-rack-blue.jpg" alt="Blue-lit enterprise server rack for cloud infrastructure." loading="lazy" />
+              <div class="reel-stats"><span>DevSecOps</span><span>Reliability</span><span>Cost control</span></div>
             </article>
-            <article class="metric-item">
-              <strong>03</strong>
-              <span>Immersive VR systems for training and simulation</span>
+            <article class="reel-slide" data-reel-slide="2">
+              <p class="reel-kicker">Data Platform</p>
+              <h3>Unified Intelligence Layer</h3>
+              <p>Analytics, operations, and decision systems in one platform.</p>
+              <img class="reel-photo" src="assets/images/home/datacenter-racks.jpg" alt="Rows of data center racks representing scalable data platforms." loading="lazy" />
+              <div class="reel-stats"><span>Real-time insights</span><span>Executive visibility</span><span>Governed access</span></div>
             </article>
-            <article class="metric-item">
-              <strong>04</strong>
-              <span>4IR transformation strategy and implementation</span>
+            <article class="reel-slide" data-reel-slide="3">
+              <p class="reel-kicker">Cybersecurity</p>
+              <h3>Security Control Plane</h3>
+              <p>Continuous security posture, policy enforcement, and threat-aware delivery workflows.</p>
+              <img class="reel-photo" src="assets/images/home/industry-fintech.jpg" alt="Secure enterprise infrastructure environment with network hardware." loading="lazy" />
+              <div class="reel-stats"><span>Policy-driven</span><span>Risk visibility</span><span>Audit readiness</span></div>
+            </article>
+            <article class="reel-slide" data-reel-slide="4">
+              <p class="reel-kicker">Product Engineering</p>
+              <h3>Digital Product Launch Studio</h3>
+              <p>From strategy to release with product squads focused on speed, quality, and adoption.</p>
+              <img class="reel-photo" src="assets/images/home/industry-healthtech.jpg" alt="Cross-functional engineering team collaborating on digital product delivery." loading="lazy" />
+              <div class="reel-stats"><span>Rapid MVPs</span><span>Scalable architecture</span><span>Growth-ready</span></div>
             </article>
           </div>
+          <div class="reel-progress"><span id="reel-progress-bar"></span></div>
         </aside>
       </div>
     </section>
 
-    <section class="section trust-strip">
+    <section class="section visual-showcase reveal">
       <div class="container">
-        <p class="trust-label">Trusted by high-accountability programs</p>
-        <div class="logo-row">
-          <span class="logo-chip">Enterprise Product Teams</span>
-          <span class="logo-chip">Government Innovation Units</span>
-          <span class="logo-chip">Transformation Offices</span>
-          <span class="logo-chip">Operations & Delivery Leaders</span>
-          <span class="logo-chip">Global Stakeholder Programs</span>
+        <div class="showcase-shell">
+          <article class="showcase-main">
+            <img src="assets/images/home/team-code-screen.jpg" alt="Enterprise software team collaborating on delivery execution." loading="lazy" />
+            <div class="showcase-overlay">
+              <p>Execution Visibility</p>
+              <h3>From Strategy To Delivery In One Operating Model</h3>
+            </div>
+          </article>
+          <article class="showcase-side">
+            <img src="assets/images/home/testimonial-exec-briefing.jpg" alt="Enterprise cloud infrastructure and architecture environment." loading="lazy" />
+            <div class="showcase-copy">
+              <p>Architecture Confidence</p>
+              <ul>
+                <li>Cloud-ready foundations</li>
+                <li>Security built into delivery</li>
+                <li>Scalable system design patterns</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <div class="showcase-stats">
+          <article><strong data-kpi-target="42" data-kpi-suffix="%">0%</strong><span>Faster release cycles</span></article>
+          <article><strong data-kpi-target="98" data-kpi-suffix="%">0%</strong><span>Delivery reliability</span></article>
+          <article><strong data-kpi-target="8" data-kpi-suffix=" weeks">0 weeks</strong><span>Average MVP launch</span></article>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section tech-ribbon reveal">
       <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">PROCESS</p>
-          <h2>How We Execute Digital Transformation</h2>
-        </div>
-        <div class="grid cols-2">
-          <article class="card reveal">
-            <h3>Step 1. Discovery and Goal Mapping</h3>
-            <p>We align on strategic outcomes, technical constraints, and success metrics before writing production code.</p>
-          </article>
-          <article class="card reveal">
-            <h3>Step 2. Solution Architecture</h3>
-            <p>Our team designs the AI, data, and application architecture needed for resilient delivery and scale.</p>
-          </article>
-          <article class="card reveal">
-            <h3>Step 3. Build, Validate, Improve</h3>
-            <p>Rapid implementation cycles with transparent reporting, demos, and measurable quality gates.</p>
-          </article>
-          <article class="card reveal">
-            <h3>Step 4. Deploy and Scale</h3>
-            <p>We productionize, optimize performance, and support long-term adoption across departments and teams.</p>
-          </article>
+        <div class="ribbon-track">
+          <span>Cloud Architecture</span>
+          <span>AI Engineering</span>
+          <span>Product Development</span>
+          <span>DevSecOps</span>
+          <span>Data Platforms</span>
+          <span>System Integration</span>
+          <span>Cloud Architecture</span>
+          <span>AI Engineering</span>
+          <span>Product Development</span>
+          <span>DevSecOps</span>
         </div>
       </div>
     </section>
 
-    <section class="section alt">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">WHY INOVRA NEXUS</p>
-          <h2>Built for Leaders Who Need Real Outcomes</h2>
-        </div>
-        <div class="kpi-grid">
-          <article class="kpi-card reveal-on-load">
-            <p class="kpi-label">Delivery Confidence</p>
-            <strong class="kpi-value" data-count="98" data-suffix="%">0%</strong>
-            <div class="kpi-track"><span class="kpi-fill" data-fill="98"></span></div>
-          </article>
-          <article class="kpi-card reveal-on-load">
-            <p class="kpi-label">Cost Overhead Reduction Potential</p>
-            <strong class="kpi-value" data-count="50" data-suffix="%">0%</strong>
-            <div class="kpi-track"><span class="kpi-fill" data-fill="50"></span></div>
-          </article>
-          <article class="kpi-card reveal-on-load">
-            <p class="kpi-label">Automation Readiness</p>
-            <strong class="kpi-value" data-count="65" data-suffix="%">0%</strong>
-            <div class="kpi-track"><span class="kpi-fill" data-fill="65"></span></div>
-          </article>
-          <article class="kpi-card reveal-on-load">
-            <p class="kpi-label">Average MVP Window</p>
-            <strong class="kpi-value" data-count="8" data-suffix=" weeks">0 weeks</strong>
-            <div class="kpi-track"><span class="kpi-fill" data-fill="72"></span></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
+    <section class="section services-pro">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">ENGAGEMENT MODELS</p>
-          <h2>Flexible Ways to Work With Us</h2>
+          <p class="eyebrow">What We Deliver</p>
+          <h2>Professional Services Built For Modern Enterprises</h2>
         </div>
-        <div class="grid cols-2">
-          <article class="list-card reveal">
-            <h3>End-to-End Delivery Partner</h3>
-            <p>We own strategy, implementation, and optimization from discovery to scale.</p>
+        <div class="services-grid">
+          <article class="service-pro-card reveal"><img class="service-photo" src="assets/images/home/services/service-ai.jpg" alt="AI software engineering workspace." loading="lazy" /><h3>AI & Automation Systems</h3><p>Copilots and workflow automation.</p></article>
+          <article class="service-pro-card reveal"><img class="service-photo" src="assets/images/home/services/service-software.jpg" alt="Software engineers collaborating in a tech office." loading="lazy" /><h3>Custom Software Engineering</h3><p>Web and enterprise products.</p></article>
+          <article class="service-pro-card reveal"><img class="service-photo" src="assets/images/home/services/service-cloud.jpg" alt="Cloud infrastructure servers in operation." loading="lazy" /><h3>Cloud & DevOps</h3><p>CI/CD, migration, reliability.</p></article>
+          <article class="service-pro-card reveal"><img class="service-photo" src="assets/images/home/services/service-data.jpg" alt="Data center environment for analytics platforms." loading="lazy" /><h3>Data & Analytics Platforms</h3><p>Pipelines and executive dashboards.</p></article>
+          <article class="service-pro-card reveal"><img class="service-photo" src="assets/images/home/services/service-security.jpg" alt="Secure enterprise server infrastructure." loading="lazy" /><h3>Cybersecurity Integration</h3><p>Built-in security controls.</p></article>
+          <article class="service-pro-card reveal"><img class="service-photo" src="assets/images/home/services/service-advisory.jpg" alt="Technology strategy discussion with development team." loading="lazy" /><h3>Transformation Advisory</h3><p>Roadmaps aligned to outcomes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-pro">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Delivery Model</p>
+          <h2>A Proven Execution Framework</h2>
+        </div>
+        <div class="process-grid">
+          <article class="process-card reveal"><span>01</span><h3>Discover</h3><p>Align goals, constraints, and measurable success KPIs.</p></article>
+          <article class="process-card reveal"><span>02</span><h3>Architect</h3><p>Design scalable, secure, and maintainable technical foundations.</p></article>
+          <article class="process-card reveal"><span>03</span><h3>Build</h3><p>Ship in fast, transparent sprints with quality gates and demos.</p></article>
+          <article class="process-card reveal"><span>04</span><h3>Optimize</h3><p>Continuously improve performance, cost, and operational resilience.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section industries-pro">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Industries</p>
+          <h2>Solutions Across High-Impact Sectors</h2>
+        </div>
+        <div class="industries-grid">
+          <article class="industry-card reveal">
+            <img src="assets/images/home/industry-fintech-2.jpg" alt="Finance technology team collaborating around digital dashboards." loading="lazy" />
+            <div>
+              <h3>FinTech & Banking</h3>
+              <p>Secure product delivery, compliance-driven systems, and modern customer platforms.</p>
+            </div>
           </article>
-          <article class="list-card reveal">
-            <h3>Dedicated Product Squad</h3>
-            <p>An embedded cross-functional team accelerating one high-priority initiative.</p>
-          </article>
-          <article class="list-card reveal">
-            <h3>Architecture and Advisory</h3>
-            <p>Targeted consulting for leaders navigating complex transformation decisions.</p>
-          </article>
-          <article class="list-card reveal">
-            <h3>Capability Acceleration Program</h3>
-            <p>Structured roadmap to upskill teams and operationalize AI across workflows.</p>
+          <article class="industry-card reveal">
+            <img src="assets/images/home/industry-healthtech-2.jpg" alt="Healthcare technology professionals working with connected systems." loading="lazy" />
+            <div>
+              <h3>HealthTech</h3>
+              <p>Interoperable platforms, analytics workflows, and reliable operations at scale.</p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section cta">
-      <div class="container reveal">
-        <h2>Need a clear path from idea to production?</h2>
-        <p>Book a strategy call and get an execution-first roadmap for your AI and digital transformation goals.</p>
-        <a class="btn btn-primary" href="pages/book-call.html">Book Call</a>
+    <section class="section impact-pro">
+      <div class="container impact-grid">
+        <article class="impact-card reveal"><p>Projects delivered</p><strong data-kpi-target="120" data-kpi-suffix="+">0+</strong></article>
+        <article class="impact-card reveal"><p>Client retention</p><strong data-kpi-target="93" data-kpi-suffix="%">0%</strong></article>
+        <article class="impact-card reveal"><p>Average CSAT</p><strong data-kpi-target="4" data-kpi-suffix=".9/5">0.9/5</strong></article>
+        <article class="impact-card reveal"><p>Operational efficiency gain</p><strong data-kpi-target="35" data-kpi-suffix="%">0%</strong></article>
+      </div>
+    </section>
+
+    <section class="section testimonials-pro">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Client Stories</p>
+          <h2>Trusted By Leadership Teams</h2>
+        </div>
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal">
+            <img src="assets/images/home/testimonial-team-meeting.jpg" alt="Client and delivery team in a project alignment meeting." loading="lazy" />
+            <blockquote>"Inovra Nexus gave us the structure and speed we needed to modernize without operational risk."</blockquote>
+            <p>CTO, Regional Services Group</p>
+          </article>
+          <article class="testimonial-card reveal">
+            <img src="assets/images/services/it-consulting.svg" alt="Executive technology briefing with cross-functional stakeholders." loading="lazy" />
+            <blockquote>"Their engineering discipline and delivery clarity made complex transformation executable."</blockquote>
+            <p>Director Digital Programs, Enterprise Client</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta reveal">
+      <div class="container cta-shell">
+        <h2>Need an IT partner that delivers results, not slide decks?</h2>
+        <p>Let us build your next digital capability with a clear execution plan.</p>
+        <a class="btn btn-primary" href="pages/book-call.html">Schedule Consultation</a>
       </div>
     </section>
   </main>
@@ -209,5 +268,10 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/cosmic-home.js"></script>
 </body>
 </html>
+
+
+
+
